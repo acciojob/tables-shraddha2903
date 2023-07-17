@@ -8,8 +8,9 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<table class="table-based">
-		<thead>
+	<table class="table-based table-responsive">
+		<caption>List of all transcations</caption>
+		<thead class="table-dark">
 			<tr>
 				<th>#</th>
 				<th>From</th>
@@ -34,13 +35,12 @@
 				<td>John</td>
 				<td>2000</td>
 			</tr>
-			<tr id="total" class="font-monospace text-end fw-bold">
-<!-- 				<td></td>
-				<td></td>
-				<td><b>Total</b</td> -->
-				<td>Total 4000</td>
-			</tr>
 		</tbody>
+		<tfoot>
+			<tr id="total" class="font-monospace text-end fw-bold">
+				<td colspan="3"><head class="table-light">Total 4000</head</td>
+			</tr>
+		</tfoot>
 	</table>
     <script type="text/javascript" src="./script.js">
 </script>
