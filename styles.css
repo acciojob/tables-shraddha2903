@@ -1,2 +1,9 @@
 
 /* Your CSS Code here. */
+thead{
+	background:black;
+	color:white;
+}
+tr{
+	border-bottom:1px solid black;
+}
